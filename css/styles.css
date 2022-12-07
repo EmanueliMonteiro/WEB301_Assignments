@@ -1,8 +1,19 @@
 html, body{
     margin: 0;
     padding: 0;
+    background: -webkit-gradient(linear, left bottom, left top,  from(#c0c0c0), to(#ffffff));
 }
 
+a {
+    font-size: 20px;
+    color: #363636;
+}
+
+h1 {
+    font-size: 28px;
+    color: #363636;
+    text-shadow: 4px 4px 5px #aaa;
+}
 
 .store img {
     width:200px;
@@ -25,9 +36,43 @@ html, body{
 	display: block;
 }
 
-.babiesRUs img {
+.toysrus img {
     width:200px;
     max-height:100px;
 	margin: 0 auto;
 	display: block;
+}
+
+.store {
+    background-color: rgb(255, 255, 255);
+}
+
+#mobile-hamburger{
+    display: block;
+}
+
+header nav{
+    display: none;
+    background-color: #c0c0c0;
+    position: absolute;
+}
+
+@media screen and (min-width: 500px) {
+    #mobile-hamburger{
+        display: none;
+    }
+    header nav{
+        display: block !important;
+        position: static;
+    }
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #797979;
+    float: left;
 }

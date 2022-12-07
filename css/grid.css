@@ -6,8 +6,8 @@
     /* We wont' use display: inline-block because then we have to remove newlines and spaces in the html */
     /* display: inline-block; */
     float: left;
-    padding: 15px;
-    border: 1px solid dodgerblue;
+    padding: 20px;
+    border: 1px solid #797979;
     text-align: center;
     box-sizing: border-box;
     width: 100%;
