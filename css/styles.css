@@ -2,3 +2,32 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
+
+.store img {
+    width:200px;
+    max-height:100px;
+	margin: 0 auto;
+	display: block;
+}
+
+.marshalls img {
+    max-width:200px;
+    max-height:100px;
+	margin: 0 auto;
+	display: block;
+}
+
+.winners img {
+    width:200px;
+    max-height:100px;
+	margin: 0 auto;
+	display: block;
+}
+
+.babiesRUs img {
+    width:200px;
+    max-height:100px;
+	margin: 0 auto;
+	display: block;
+}

@@ -1,7 +1,7 @@
-Use [this link](https://www.webmobilefirst.com/en/devices/) to find the mobile devices resolution.
+Use [this link](https://www.webmobilefirst.com/en/devices/) to find your mobile devices resolution. Note your phone and its resolution below.
 
-Name: Emanueli Camila Ubiali Monteiro
+Your name: Emanueli Camila Ubiali Monteiro
 
-Phone model: Iphone 13 (2021)
+Your phone model: Iphone 13 (2021)
 
-Resolution: 390 px (width) x 844 px (height)
+Resolution: 390 pixels width x 844 pixels height
