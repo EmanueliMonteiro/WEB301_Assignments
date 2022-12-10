@@ -9,23 +9,397 @@
   <title>Stores</title>
   
   <link rel="stylesheet" href="css/styles.css" />
-  <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   
 </head>
 
 <body>
   <header>
-    <!-- Nav goes here -->
+    <div class="bg-success p-3 text-white">
+      <nav class="navbar navbar-expand-lg" >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav"> 
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.toysrus.ca/en/home" target="_blank">Toys R Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.marshalls.ca/en" target="_blank">Marshalls</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.winners.ca/en" target="_blank">Winners</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
   </header>
   <main>
-    <!-- Content goes here -->
-  </main>
+
+    <div class="bg-success p-2" style="--bs-bg-opacity: .5;">
+      <div class="card-grid m-3 pb-4">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="card text-center" >
+              <img src="img/toysrus.jpg" class="card-img-top" alt="Toys R Us"/>
+              <div class="card-body">
+                <h5 class="card-title">Toys R US</h5>
+                <p class="card-text">
+                  All for your kids.
+                </p>
+              </div>
+              <div class="container bg-success">
+                <div class="accordion pt-4" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                      Desktop point of view
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        I didn't like the design in general, maybe because it's a children's site, it uses a lot of colors, 
+                        which didn't look good. The navigation bar is fixed when we scroll down, so much of the screen is lost.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                      Mobile point of view
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        The Toys R Us website I reviewed implemented adaptive design. I liked more the mobile website than the desktop
+                      website. They used a hamburguer menu, it's more organized.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#customLastElement"
+                        aria-expanded="false"
+                        aria-controls="customLastElement"
+                      >
+                      What I liked
+                      </button>
+                    </h2>
+                    <div
+                      id="customLastElement"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        I liked the organization of the website. It's intuitive when you scroll down, and they separate their products by age.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                      What I would change
+                      </button>
+                    </h2>
+                    <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                  >
+                  <div class="accordion-body">
+                  For me the site has too many colors, which is not pleasing to the eye. Perhaps I would change 
+                  the letter and spacing between the information.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="card-grid m-6 pb-4">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="card text-center">
+              <img src="img/winners.jpg" class="card-img-top" alt="Winners"/>
+              <div class="card-body">
+                <h5 class="card-title">Winners</h5>
+                <p class="card-text">
+                  All for you and your house.
+                </p>
+              </div>
+              <main class="container bg-success">
+                <div class="accordion pt-4" id="accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                      Desktop point of view
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        The Winners website I reviewed implemented adaptive design. It is exactly the same as Marshalls website, 
+                      as it is the same chain of stores. I couldn't find the search bar, which is weird as it's a primary thing 
+                      for the user. There are internal links to visit websites that are related 
+                      to the store.
+                    </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                      Mobile point of view
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        The Winners website I reviewed implemented adaptive design. It doesn't use the hamburger menu, 
+                        the website uses the scrollbar to the left to see the navigation menu. All sections are centered on the mobile screen, 
+                        which is pleasant for the user.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#customLastElement"
+                        aria-expanded="false"
+                        aria-controls="customLastElement"
+                      >
+                      What I liked
+                      </button>
+                    </h2>
+                    <div
+                      id="customLastElement"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        It's the same as Marshalls. They only changed the color to black, but the design is responsive and 
+                        everything is centralized. The search bar is in the center of the screen and easy to access.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                      What I would change
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                  I would probably increase the font size of the menu a bit, 
+                  and maybe turn it into a hamburger menu.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-grid m-6 pb-4">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="card text-center">
+              <img src="img/marshalls.jpg" class="card-img-top" alt="Marshalls" />
+              <div class="card-body">
+                <h5 class="card-title">Marshalls</h5>
+                <p class="card-text">
+                  All for you and your house.
+                </p>
+              </div>
+              <main class="container bg-success">
+                <div class="accordion pt-4" id="accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                      Desktop point of view
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        The Marshalls website I reviewed implemented adaptive design. I couldn't find the search bar, 
+                        which is weird as it's a primary thing for the user. There are internal links to visit websites that are related 
+                        to the store, such as Winners.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                      Mobile point of view
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        The Marshalls website I reviewed implemented adaptive design. It doesn't use the hamburger menu, 
+                        the website uses the scrollbar to the left to see the navigation menu. All sections are centered on the mobile screen, 
+                        which is pleasant for the user.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#customLastElement"
+                        aria-expanded="false"
+                        aria-controls="customLastElement"
+                      >
+                      What I liked
+                      </button>
+                    </h2>
+                    <div
+                      id="customLastElement"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                      I'm satisfied with the website. The colors are modern, the design is responsive, 
+                      everything is centralized, enough information. The search bar is in the center of the screen and easy to access.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                  <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  What I would change
+                </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                  I would probably increase the font size of the menu a bit, and maybe turn it into a hamburger menu.
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </main>
   <footer>
-    <!-- Github link goes here -->
+    <div class="bg-success p-3 text-white text-center">
+    By: <a href="https://github.com/EmanueliMonteiro/WEB301_Assignments/tree/Assignment-3" target="_blank">Emanueli Monteiro - 2022</a>
+    </div>
   </footer>
   <script type="text/javascript" src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
 </body>
-
 </html>
